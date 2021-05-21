@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+/****************************************
+    共通部分
+*****************************************/
+* {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************************************
+    header
+*****************************************/
+
+
+ul {
+  text-align:right;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding:0 10px;
+  
+}
+
+header a {
+  color: blue;
+}
+
+header a:hover {
+  color: aquamarine;
+}
