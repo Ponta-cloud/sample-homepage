@@ -37,7 +37,7 @@ header {
 
 ul {
   text-align:right;
-  margin-top: 34px;
+  margin-top: -500px;
 }
 
 li {
@@ -59,10 +59,9 @@ header a:hover {
 /****************************************
     大きな画像
 *****************************************/
-#home {
+.home {
   background-image: url(/assets/suisyo.JPG);
   background-size:cover;
-
   height: 0;
   padding-top: 53.7903757416%;
   background-repeat: no-repeat;
