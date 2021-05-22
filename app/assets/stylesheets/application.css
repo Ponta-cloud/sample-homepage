@@ -37,7 +37,11 @@ header {
 
 ul {
   text-align:right;
-  margin-top: -500px;
+  
+}
+
+.home ul {
+  margin-top: -700px;
 }
 
 li {
