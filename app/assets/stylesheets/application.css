@@ -13,3 +13,150 @@
  *= require_tree .
  *= require_self
  */
+
+/****************************************
+    共通部分
+*****************************************/
+* {
+
+}
+
+body {
+  margin: -15px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************************************
+    header
+*****************************************/
+
+header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1% 4% 0 4%;
+}
+
+ul {
+  text-align:right;
+  
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding:0 10px; 
+}
+
+header a {
+  color: #432;
+  font-size: 1.25rem;
+}
+
+header a:hover {
+  color: aquamarine;
+}
+
+
+/****************************************
+    大きな画像
+*****************************************/
+.home {
+  background-image: url(/assets/suisyohama.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100vh;
+}
+
+/****************************************
+    コンテンツ
+*****************************************/
+
+.intro {
+  text-align: center;
+  margin-top: 150px;
+  font-family: serif;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.sub-title {
+  font-size: 1.65rem;
+  padding: 10px 0 15px 0;
+}
+
+/* .btn {
+  font-size: 2rem;
+  color: white;
+
+} */
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #0bd;
+  padding: 18px 20px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #0bd;
+}
+
+@media screen and (max-width: 600px) {
+      .name {
+          font-size: 2rem;
+      }
+
+      .sub-title {
+        font-size: 1.3rem;
+      }
+
+      .btn--orange,
+      a.btn--orange {
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+  }
+
+
+/****************************************
+    プロフィール
+*****************************************/
+
+.contents {
+  margin: 10px 30px;
+}
+
+.contents h2 {
+  text-align: left;
+  border-bottom: medium solid #0bd;
+}
+
+.contents h3 {
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.contents p {
+
+}
+
+/****************************************
+    footer
+*****************************************/
+
+footer {
+  text-align: center;
+  background-color: #0bd;
+  padding: 10px;
+  margin-top: 10px;
+}
